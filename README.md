@@ -7,5 +7,5 @@ Since some of the labels are missing, I split the dataset into two part, i.e., f
 
 **Model:** Support Vector Machine (SVM) - is a supervised machine learning model that uses classification algorithms for two-group classification problems. SVM is a fast and dependable algorithm that performs very well with a limited amount of data, which makes it great for this case.
 
-To train the SVM I have used 0.9 of the training data and used the rest to evalute the training performance. After training, I have used the trained model to predict the data with missing labels. Since it only takes a minute to run the pipline, one could traing a couple of SVM on the different data features, e.g. title, meta_des and articles, get its corresponding predictions, and compile combined predictions from the three based on the most common outputs. The model accuracy scores is above 90%.
+To train the SVM I have used 0.9 of the training data and used the rest to evalute the training performance. After training, I have used the trained model to predict the data with missing labels. Since it only takes a minute to run the pipline, one could train a couple of SVM on the different data features, e.g. title, meta_des and articles, get its corresponding predictions, and compile combined predictions from the three based on the most common outputs. The model accuracy scores is above 90%.
 
